@@ -1,0 +1,14 @@
+
+dsquid:S1192x"HDefine a constant instead of duplicating this literal "=? AND " 4 times.(„¼¹úÿÿÿÿ
+csquid:S1192D"GDefine a constant instead of duplicating this literal "%s: %s" 4 times.(ÇÇ÷«ùÿÿÿÿ
+Ksquid:S1066~"/Merge this if statement with the enclosing one.(ä²œ¼øÿÿÿÿ
+‚squid:S1319("kThe type of the "ids" object should be an interface such as "Set" rather than the implementation "HashSet".(îîè“
+‡squid:S1319S"kThe type of the "ids" object should be an interface such as "Set" rather than the implementation "HashSet".(ó†±‹ÿÿÿÿÿ
+Šsquid:S1319È"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(ÛëÈğıÿÿÿÿ
+Usquid:S1155-">Use isEmpty() to check whether the collection is empty or not.(´¤”Ó
+Vsquid:S1118&":Add a private constructor to hide the implicit public one.(³¡¸ÿÿÿÿÿ
+usquid:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(áºĞ»ûÿÿÿÿ
+[squid:S2147E"DCombine this catch with the one at line 67, which has the same body.(æš©›
+usquid:S2293Z"YReplace the type specification in this constructor call with the diamond operator ("<>").(áºĞ»ûÿÿÿÿ
+\squid:S2147l"ECombine this catch with the one at line 106, which has the same body.(æš©›
+vsquid:S2293Ò"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÛÂª¡úÿÿÿÿ

@@ -1,0 +1,6 @@
+
+Fsquid:S16047"(Make this anonymous inner class a lambda(íË½ı8ÒåÑ¡2
+£squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(«ƒà·şÿÿÿÿJ$c879523c-fdce-48ab-98db-355bebac3cde
+rsquid:S00100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Ÿ¦×ıÿÿÿÿ8ÛåÑ¡2
+csquid:CallToDeprecatedMethodd"5Remove this use of "FORMAT_24HOUR"; it is deprecated.(××—$8âåÑ¡2
+csquid:CallToDeprecatedMethodd"5Remove this use of "FORMAT_12HOUR"; it is deprecated.(××—$8âåÑ¡2

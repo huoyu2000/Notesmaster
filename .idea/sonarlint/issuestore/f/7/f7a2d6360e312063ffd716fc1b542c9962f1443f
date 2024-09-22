@@ -1,0 +1,53 @@
+
+NWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(òçÿŒÿÿÿÿÿ
+B	Web:S1827"(Remove this deprecated "name" attribute.(ş™¨£úÿÿÿÿ
+B	Web:S1827"(Remove this deprecated "name" attribute.(ìó¢ßøÿÿÿÿ
+NWeb:AvoidCommentedOutCodeCheck3"Remove this commented out code.(òçÿŒÿÿÿÿÿ
+=	Web:S1827M"(Remove this deprecated "name" attribute.(Ä³Ş
+B	Web:S1827q"(Remove this deprecated "name" attribute.(ù‹Õ¼øÿÿÿÿ
+I	Web:S1827u"/Remove this deprecated "cellpadding" attribute.(¡Óõæıÿÿÿÿ
+I	Web:S1827u"/Remove this deprecated "cellspacing" attribute.(¡Óõæıÿÿÿÿ
+E	Web:S1827u"+Remove this deprecated "summary" attribute.(¡Óõæıÿÿÿÿ
+=	Web:S1827†"(Remove this deprecated "name" attribute.(—ùh
+E	Web:S1827Š"/Remove this deprecated "cellpadding" attribute.(æÃöı
+E	Web:S1827Š"/Remove this deprecated "cellspacing" attribute.(æÃöı
+A	Web:S1827Š"+Remove this deprecated "summary" attribute.(æÃöı
+C	Web:S1827—"(Remove this deprecated "name" attribute.(ãº†¨ûÿÿÿÿ
+E	Web:S1827›"/Remove this deprecated "cellpadding" attribute.(…²ˆÛ
+E	Web:S1827›"/Remove this deprecated "cellspacing" attribute.(…²ˆÛ
+A	Web:S1827›"+Remove this deprecated "summary" attribute.(…²ˆÛ
+IWeb:BoldAndItalicTagsCheckë"Replace this <i> tag by <em>.(‹æÄ™úÿÿÿÿ
+DWeb:BoldAndItalicTagsCheckö"Replace this <i> tag by <em>.(šïÙÅ
+IWeb:BoldAndItalicTagsCheck–"Replace this <i> tag by <em>.(òÖÑüıÿÿÿÿ
+C	Web:S1827©"(Remove this deprecated "name" attribute.(ŸÙ‹ëÿÿÿÿÿ
+C	Web:S1827¹"(Remove this deprecated "name" attribute.(Ú‚­ÿÿÿÿÿ
+C	Web:S1827½"(Remove this deprecated "name" attribute.(›ÇÍıÿÿÿÿ
+C	Web:S1827Ì"(Remove this deprecated "name" attribute.(ŸÖ‡çıÿÿÿÿ
+>	Web:S1827Ğ"(Remove this deprecated "name" attribute.(Ãù»æ
+C	Web:S1827İ"(Remove this deprecated "name" attribute.(×¯Ÿøÿÿÿÿ
+C	Web:S1827á"(Remove this deprecated "name" attribute.(ŞƒÂ´ÿÿÿÿÿ
+CWeb:BoldAndItalicTagsCheckê"Replace this <i> tag by <em>.(º¬Ê#
+C	Web:S1827í"(Remove this deprecated "name" attribute.(®èĞÓÿÿÿÿÿ
+>	Web:S1827ü"(Remove this deprecated "name" attribute.(è¶Ä¼
+>	Web:S1827"(Remove this deprecated "name" attribute.(ç·ÛÂ
+>	Web:S1827™"(Remove this deprecated "name" attribute.(Ó®Ù
+DWeb:BoldAndItalicTagsCheck£"Replace this <i> tag by <em>.(¢«Ş³
+>	Web:S1827«"(Remove this deprecated "name" attribute.(ÂÍ²¶
+IWeb:BoldAndItalicTagsCheck¶"Replace this <i> tag by <em>.(òÅĞ™şÿÿÿÿ
+>	Web:S1827¿"(Remove this deprecated "name" attribute.(”Àøé
+C	Web:S1827Î"(Remove this deprecated "name" attribute.(„ñıûÿÿÿÿ
+C	Web:S1827Ş"(Remove this deprecated "name" attribute.(¯Ğ¶Òıÿÿÿÿ
+C	Web:S1827í"(Remove this deprecated "name" attribute.(˜ß²àúÿÿÿÿ
+C	Web:S1827û"(Remove this deprecated "name" attribute.(«‰ŠÈùÿÿÿÿ
+>	Web:S1827ˆ"(Remove this deprecated "name" attribute.(ªã«é
+>	Web:S1827–"(Remove this deprecated "name" attribute.(ò¾à½
+C	Web:S1827£"(Remove this deprecated "name" attribute.(”£ĞÇøÿÿÿÿ
+>	Web:S1827±"(Remove this deprecated "name" attribute.(ÜÅ˜Ç
+=	Web:S1827Á"(Remove this deprecated "name" attribute.(ìæğ^
+=	Web:S1827Ğ"(Remove this deprecated "name" attribute.(¢–µ
+>	Web:S1827è"(Remove this deprecated "name" attribute.(™Ì›ó
+C	Web:S1827ê"(Remove this deprecated "name" attribute.(ºñÒ³ûÿÿÿÿ
+OWeb:AvoidCommentedOutCodeCheck…"Remove this commented out code.(òçÿŒÿÿÿÿÿ
+C	Web:S1827Ÿ"(Remove this deprecated "name" attribute.(òı¹Äıÿÿÿÿ
+€javascript:S27034"dAdd the "let", "const" or "var" keyword to this declaration of "allClassesLink" to make it explicit.(æúÀÀ
+†javascript:S2703†"dAdd the "let", "const" or "var" keyword to this declaration of "allClassesLink" to make it explicit.(ÒüÇÚùÿÿÿÿ

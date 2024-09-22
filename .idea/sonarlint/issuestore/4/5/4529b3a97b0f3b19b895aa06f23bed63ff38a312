@@ -1,0 +1,29 @@
+
+bsquid:S2184s"FCast one of the operands of this multiplication operation to a "long".(ג£›Úשÿÿÿÿ
+@squid:S1148"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148Ú"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148Þ"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148ג"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148ז"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148€"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148®"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148ה"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148û"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148™"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148¡"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+@squid:S1148½"#Use a logger to log this exception.(€ֹװ…‎ÿÿÿÿ
+fsquid:CallToDeprecatedMethodK"9Remove this use of "DefaultHttpClient"; it is deprecated.(כ¯¥ל‏ÿÿÿÿ
+Zsquid:CallToDeprecatedMethodח"2Remove this use of "HttpParams"; it is deprecated.(ֵ‹E
+_squid:CallToDeprecatedMethodח"7Remove this use of "BasicHttpParams"; it is deprecated.(ֵ‹E
+jsquid:CallToDeprecatedMethodט"<Remove this use of "HttpConnectionParams"; it is deprecated.(­Ú¬Ùשÿÿÿÿ
+jsquid:CallToDeprecatedMethodט"<Remove this use of "setConnectionTimeout"; it is deprecated.(­Ú¬Ùשÿÿÿÿ
+jsquid:CallToDeprecatedMethodי"<Remove this use of "HttpConnectionParams"; it is deprecated.(וÙµּûÿÿÿÿ
+bsquid:CallToDeprecatedMethodי"4Remove this use of "setSoTimeout"; it is deprecated.(וÙµּûÿÿÿÿ
+asquid:CallToDeprecatedMethodך"9Remove this use of "DefaultHttpClient"; it is deprecated.(Ûװַ/
+hsquid:CallToDeprecatedMethodם":Remove this use of "HttpProtocolParams"; it is deprecated.(ֳ•ךרÿÿÿÿÿ
+Gsquid:S2093µ"*Change this "try" to a try-with-resources.(¡»¢üשÿÿÿÿ
+]squid:S2147Ü"ECombine this catch with the one at line 344, which has the same body.(ן­£ִ
+vsquid:S2293־"YReplace the type specification in this constructor call with the diamond operator ("<>").(זו„‏ÿÿÿÿ
+]squid:S2147›"ECombine this catch with the one at line 535, which has the same body.(ן­£ִ

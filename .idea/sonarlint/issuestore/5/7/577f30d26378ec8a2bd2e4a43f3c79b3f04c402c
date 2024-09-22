@@ -1,0 +1,33 @@
+
+‰"squid:ClassVariableVisibilityCheckN"VMake tvModified a static final constant or non-public and provide accessors if needed.(ƒëÔ£ÿÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheckP"WMake ivAlertIcon a static final constant or non-public and provide accessors if needed.(ªà¶±ûÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheckR"WMake tvAlertDate a static final constant or non-public and provide accessors if needed.(“²Öúÿÿÿÿ
+‹"squid:ClassVariableVisibilityCheckT"XMake ibSetBgColor a static final constant or non-public and provide accessors if needed.(ıãä¬üÿÿÿÿ
+@squid:S1604ˆ"(Make this anonymous inner class a lambda(Î¬¯”
+@squid:S1604®"(Make this anonymous inner class a lambda(¨›Ì÷
+@squid:S1604İ"(Make this anonymous inner class a lambda(××ß’
+osquid:S1450–"WRemove the "mPattern" field and declare it as a local variable in the relevant methods.(©´ÖÛ
+usquid:S2293W"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÑÓ¥üÿÿÿÿ
+usquid:S2293`"YReplace the type specification in this constructor call with the diamond operator ("<>").(®ú÷õşÿÿÿÿ
+usquid:S2293i"YReplace the type specification in this constructor call with the diamond operator ("<>").(êİıÂşÿÿÿÿ
+psquid:S2293q"YReplace the type specification in this constructor call with the diamond operator ("<>").(À—’¢
+osquid:S3776¶"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(İ¨Á±øÿÿÿÿ
+isquid:CallToDeprecatedMethodØ"@Remove this use of "SOFT_INPUT_ADJUST_RESIZE"; it is deprecated.(Ñ¯”
+nsquid:CallToDeprecatedMethodş"@Remove this use of "SOFT_INPUT_ADJUST_RESIZE"; it is deprecated.(Ò£ú¿ÿÿÿÿÿ
+asquid:CallToDeprecatedMethod"9Remove this use of "setTextAppearance"; it is deprecated.(½õË(
+Lsquid:S2864˜"4Iterate over the "entrySet" instead of the "keySet".(­Ô‡ï
+Osquid:S1135¤"2Complete the task associated to this TODO comment.(Ùü§“ıÿÿÿÿ
+Lsquid:EmptyStatementUsageCheck¸"Remove this empty statement.(ôŸìúÿÿÿÿ
+Ysquid:S1126å"AReplace this if-then-else statement by a single return statement.(®ÎÚÉ
+Isquid:S1905ú",Remove this unnecessary cast to "ImageView".(ÿ¹Ê¼ıÿÿÿÿ
+Lsquid:EmptyStatementUsageCheck‚"Remove this empty statement.(ôŸìúÿÿÿÿ
+bsquid:CallToDeprecatedMethodƒ"9Remove this use of "PreferenceManager"; it is deprecated.(ª¦úÅ
+lsquid:CallToDeprecatedMethodƒ"CRemove this use of "getDefaultSharedPreferences"; it is deprecated.(ª¦úÅ
+gsquid:CallToDeprecatedMethodÀ"9Remove this use of "setTextAppearance"; it is deprecated.(ÑëÊäüÿÿÿÿ
+xsquid:CallToDeprecatedMethodÈ"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(œƒƒ©ùÿÿÿÿ
+csquid:CallToDeprecatedMethodÎ"5Remove this use of "onBackPressed"; it is deprecated.(‘Ñàÿÿÿÿÿ
+qsquid:S2293Ï"YReplace the type specification in this constructor call with the diamond operator ("<>").(è‰¥ğ
+gsquid:CallToDeprecatedMethodÛ"9Remove this use of "setTextAppearance"; it is deprecated.(Ùú˜Êøÿÿÿÿ
+fsquid:CallToDeprecatedMethodÇ"=Remove this use of "EXTRA_SHORTCUT_INTENT"; it is deprecated.(·Ã°Ÿ
+dsquid:CallToDeprecatedMethodÈ";Remove this use of "EXTRA_SHORTCUT_NAME"; it is deprecated.(ÒÀ‘ç
+msquid:CallToDeprecatedMethodÊ"DRemove this use of "EXTRA_SHORTCUT_ICON_RESOURCE"; it is deprecated.(§éÇ¾

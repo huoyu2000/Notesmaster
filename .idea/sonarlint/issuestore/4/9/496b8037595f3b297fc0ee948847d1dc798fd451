@@ -1,0 +1,55 @@
+
+NWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(òçÿŒÿÿÿÿÿ
+B	Web:S1827"(Remove this deprecated "name" attribute.(ş™¨£úÿÿÿÿ
+B	Web:S1827"(Remove this deprecated "name" attribute.(ìó¢ßøÿÿÿÿ
+NWeb:AvoidCommentedOutCodeCheck3"Remove this commented out code.(òçÿŒÿÿÿÿÿ
+=	Web:S1827>"(Remove this deprecated "name" attribute.(Ä³Ş
+I	Web:S1827H"/Remove this deprecated "cellpadding" attribute.(Ÿ™àÙÿÿÿÿÿ
+I	Web:S1827H"/Remove this deprecated "cellspacing" attribute.(Ÿ™àÙÿÿÿÿÿ
+E	Web:S1827H"+Remove this deprecated "summary" attribute.(Ÿ™àÙÿÿÿÿÿ
+=	Web:S1827x"(Remove this deprecated "name" attribute.( ×¤‰
+D	Web:S1827{"/Remove this deprecated "cellpadding" attribute.(ì İ
+D	Web:S1827{"/Remove this deprecated "cellspacing" attribute.(ì İ
+@	Web:S1827{"+Remove this deprecated "summary" attribute.(ì İ
+CWeb:BoldAndItalicTagsCheck„"Replace this <i> tag by <em>.(ºü£N
+>	Web:S1827Œ"(Remove this deprecated "name" attribute.(Â¯äş
+E	Web:S1827"/Remove this deprecated "cellpadding" attribute.(ì İ
+E	Web:S1827"/Remove this deprecated "cellspacing" attribute.(ì İ
+A	Web:S1827"+Remove this deprecated "summary" attribute.(ì İ
+IWeb:BoldAndItalicTagsCheck˜"Replace this <i> tag by <em>.(‹àÁ™ûÿÿÿÿ
+IWeb:BoldAndItalicTagsCheckŸ"Replace this <i> tag by <em>.(½ëÑÌúÿÿÿÿ
+C	Web:S1827¦"(Remove this deprecated "name" attribute.(ÿ©Õûÿÿÿÿ
+E	Web:S1827©"/Remove this deprecated "cellpadding" attribute.(ì İ
+E	Web:S1827©"/Remove this deprecated "cellspacing" attribute.(ì İ
+A	Web:S1827©"+Remove this deprecated "summary" attribute.(ì İ
+IWeb:BoldAndItalicTagsCheck²"Replace this <i> tag by <em>.(ªñğ—ûÿÿÿÿ
+DWeb:BoldAndItalicTagsCheck¹"Replace this <i> tag by <em>.(½Ğ¡
+CWeb:BoldAndItalicTagsCheckÀ"Replace this <i> tag by <em>.(ºü£N
+DWeb:BoldAndItalicTagsCheckÈ"Replace this <i> tag by <em>.(ëÉ¥Œ
+IWeb:BoldAndItalicTagsCheckÏ"Replace this <i> tag by <em>.(½ëÑÌúÿÿÿÿ
+>	Web:S1827Ö"(Remove this deprecated "name" attribute.(ØÛøİ
+E	Web:S1827Ù"/Remove this deprecated "cellpadding" attribute.(ì İ
+E	Web:S1827Ù"/Remove this deprecated "cellspacing" attribute.(ì İ
+A	Web:S1827Ù"+Remove this deprecated "summary" attribute.(ì İ
+IWeb:BoldAndItalicTagsCheckâ"Replace this <i> tag by <em>.(ªñğ—ûÿÿÿÿ
+IWeb:BoldAndItalicTagsChecké"Replace this <i> tag by <em>.(ƒ–“ˆûÿÿÿÿ
+IWeb:BoldAndItalicTagsCheckğ"Replace this <i> tag by <em>.(½ëÑÌúÿÿÿÿ
+IWeb:BoldAndItalicTagsCheck÷"Replace this <i> tag by <em>.(´Ü‘øşÿÿÿÿ
+DWeb:BoldAndItalicTagsCheckş"Replace this <i> tag by <em>.(ëÉ¥Œ
+IWeb:BoldAndItalicTagsCheck…"Replace this <i> tag by <em>.(½ëÑÌúÿÿÿÿ
+>	Web:S1827Œ"(Remove this deprecated "name" attribute.(ùÃÏí
+E	Web:S1827"/Remove this deprecated "cellpadding" attribute.(ì İ
+E	Web:S1827"/Remove this deprecated "cellspacing" attribute.(ì İ
+A	Web:S1827"+Remove this deprecated "summary" attribute.(ì İ
+IWeb:BoldAndItalicTagsCheck˜"Replace this <i> tag by <em>.(‹àÁ™ûÿÿÿÿ
+C	Web:S1827Ÿ"(Remove this deprecated "name" attribute.(óàÀÙøÿÿÿÿ
+E	Web:S1827¢"/Remove this deprecated "cellpadding" attribute.(ì İ
+E	Web:S1827¢"/Remove this deprecated "cellspacing" attribute.(ì İ
+A	Web:S1827¢"+Remove this deprecated "summary" attribute.(ì İ
+IWeb:BoldAndItalicTagsCheck«"Replace this <i> tag by <em>.(‹àÁ™ûÿÿÿÿ
+>	Web:S1827µ"(Remove this deprecated "name" attribute.(™Ì›ó
+C	Web:S1827·"(Remove this deprecated "name" attribute.(ºñÒ³ûÿÿÿÿ
+OWeb:AvoidCommentedOutCodeCheckÒ"Remove this commented out code.(òçÿŒÿÿÿÿÿ
+C	Web:S1827İ"(Remove this deprecated "name" attribute.(òı¹Äıÿÿÿÿ
+€javascript:S27034"dAdd the "let", "const" or "var" keyword to this declaration of "allClassesLink" to make it explicit.(æúÀÀ
+†javascript:S2703Ó"dAdd the "let", "const" or "var" keyword to this declaration of "allClassesLink" to make it explicit.(ÒüÇÚùÿÿÿÿ

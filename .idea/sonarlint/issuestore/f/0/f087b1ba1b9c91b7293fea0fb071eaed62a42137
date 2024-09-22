@@ -1,0 +1,14 @@
+
+?squid:S1604/"(Make this anonymous inner class a lambda(«Ñğ
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Ö–¿ùÿÿÿÿ
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(êÅ²ôûÿÿÿÿ
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(šØ²Ãùÿÿÿÿ
+osquid:ModifiersOrderCheck!"EReorder the modifiers to comply with the Java Language Specification.(°àº¿øÿÿÿÿ
+jsquid:ModifiersOrderCheck#"EReorder the modifiers to comply with the Java Language Specification.(ôÕ³Ş
+jsquid:ModifiersOrderCheck%"EReorder the modifiers to comply with the Java Language Specification.(ßªäË
+jsquid:ModifiersOrderCheck'"EReorder the modifiers to comply with the Java Language Specification.(¹‹¶È
+Msquid:S2696/"6Make the enclosing method "static" or remove this set.(«Ñğ
+Msquid:S26961"6Make the enclosing method "static" or remove this set.(ÙÊãÚ
+Wsquid:CallToDeprecatedMethod7"/Remove this use of "execute"; it is deprecated.(¡íŠş
+Msquid:S2696C"6Make the enclosing method "static" or remove this set.(ÙÊãÚ
+Lsquid:S2696e"6Make the enclosing method "static" or remove this set.(„ò

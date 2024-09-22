@@ -1,0 +1,31 @@
+
+hsquid:S1301ú"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ
+@squid:S1604†"(Make this anonymous inner class a lambda(§¤É
+@squid:S1604¤"(Make this anonymous inner class a lambda(ğåÜ¨
+@squid:S1604«"(Make this anonymous inner class a lambda(ğåÜ¨
+@squid:S1604ç"(Make this anonymous inner class a lambda(Î¬¯”
+@squid:S1604ô"(Make this anonymous inner class a lambda(³Ú…Î
+@squid:S1604‘"(Make this anonymous inner class a lambda(ôéÿ
+@squid:S1604²"(Make this anonymous inner class a lambda(ÉãÃ®
+@squid:S1604Í"(Make this anonymous inner class a lambda(ÉãÃ®
+Rsquid:UselessImportCheck&".Remove this unused import 'android.view.Menu'.(£¯Ò…
+Vsquid:UselessImportCheck"2Remove this unused import 'android.app.ActionBar'.(Åêñª
+jsquid:MaximumInheritanceDepth3"<This class has 7 parents which is greater than 5 authorized.(ç½Úàøÿÿÿÿ
+gsquid:CallToDeprecatedMethod3":Remove this use of "PreferenceActivity"; it is deprecated.(ç½Úàøÿÿÿÿ
+bsquid:CallToDeprecatedMethod@":Remove this use of "PreferenceCategory"; it is deprecated.(ÜÎ˜Ó
+rsquid:CallToDeprecatedMethodI"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÍÎ˜Ç
+]squid:CallToDeprecatedMethodJ"0Remove this use of "onCreate"; it is deprecated.(È¢Õ–úÿÿÿÿ
+bsquid:CallToDeprecatedMethodP":Remove this use of "PreferenceCategory"; it is deprecated.(‰´Òø
+^squid:CallToDeprecatedMethodP"6Remove this use of "findPreference"; it is deprecated.(‰´Òø
+[squid:CallToDeprecatedMethodX"3Remove this use of "getListView"; it is deprecated.(ôØ¯é
+isquid:S3776\"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ù«µ§
+rsquid:CallToDeprecatedMethodx"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÍÙ÷¢
+Ysquid:CallToDeprecatedMethod|"1Remove this use of "onDestroy"; it is deprecated.(ÍÊ·´
+Zsquid:CallToDeprecatedMethod€"1Remove this use of "removeAll"; it is deprecated.(€ûœ
+`squid:CallToDeprecatedMethod‚"2Remove this use of "Preference"; it is deprecated.(ƒù¬ ıÿÿÿÿ
+`squid:CallToDeprecatedMethod‚"2Remove this use of "Preference"; it is deprecated.(ƒù¬ ıÿÿÿÿ
+msquid:CallToDeprecatedMethod†"DRemove this use of "setOnPreferenceClickListener"; it is deprecated.(§¤É
+`squid:CallToDeprecatedMethod‡"2Remove this use of "Preference"; it is deprecated.(¶®è‰øÿÿÿÿ
+csquid:CallToDeprecatedMethodš"5Remove this use of "addPreference"; it is deprecated.(èÙ†İüÿÿÿÿ
+ssquid:CallToDeprecatedMethodù"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ñ”Ò
+Rsquid:S1161ù":Add the "@Override" annotation above this method signature(ñ”Ò

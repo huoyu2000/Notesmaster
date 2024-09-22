@@ -1,0 +1,7 @@
+
+ksquid:S1192?"ODefine a constant instead of duplicating this literal "Wrong note id:" 3 times.(€¨ƒ¦úÿÿÿÿ
+Vsquid:S1155ì">Use isEmpty() to check whether the collection is empty or not.(”¥ŠÉ
+]squid:S1126}"AReplace this if-then-else statement by a single return statement.(Æ·¾ôúÿÿÿÿ
+jsquid:S3776µ"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(¤§²
+vsquid:S2293½"YReplace the type specification in this constructor call with the diamond operator ("<>").(áºĞ»ûÿÿÿÿ
+]squid:S2147õ"ECombine this catch with the one at line 242, which has the same body.(æš©›

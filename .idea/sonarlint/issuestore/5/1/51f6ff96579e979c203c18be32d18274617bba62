@@ -1,0 +1,58 @@
+
+NWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(òçÿŒÿÿÿÿÿ
+B	Web:S1827"(Remove this deprecated "name" attribute.(ş™¨£úÿÿÿÿ
+B	Web:S1827"(Remove this deprecated "name" attribute.(ìó¢ßøÿÿÿÿ
+NWeb:AvoidCommentedOutCodeCheck3"Remove this commented out code.(òçÿŒÿÿÿÿÿ
+=	Web:S1827M"(Remove this deprecated "name" attribute.(Ä³Ş
+CWeb:BoldAndItalicTagsCheckh"Replace this <i> tag by <em>.(ù›şÕ
+>	Web:S1827„"(Remove this deprecated "name" attribute.(ôº‰
+J	Web:S1827ˆ"/Remove this deprecated "cellpadding" attribute.(İ«öÿûÿÿÿÿ
+J	Web:S1827ˆ"/Remove this deprecated "cellspacing" attribute.(İ«öÿûÿÿÿÿ
+F	Web:S1827ˆ"+Remove this deprecated "summary" attribute.(İ«öÿûÿÿÿÿ
+C	Web:S1827¡"(Remove this deprecated "name" attribute.(ù‹Õ¼øÿÿÿÿ
+J	Web:S1827¥"/Remove this deprecated "cellpadding" attribute.(¡Óõæıÿÿÿÿ
+J	Web:S1827¥"/Remove this deprecated "cellspacing" attribute.(¡Óõæıÿÿÿÿ
+F	Web:S1827¥"+Remove this deprecated "summary" attribute.(¡Óõæıÿÿÿÿ
+=	Web:S1827ï"(Remove this deprecated "name" attribute.(—ùh
+E	Web:S1827ó"/Remove this deprecated "cellpadding" attribute.(æÃöı
+E	Web:S1827ó"/Remove this deprecated "cellspacing" attribute.(æÃöı
+A	Web:S1827ó"+Remove this deprecated "summary" attribute.(æÃöı
+DWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(·å“Œ
+C	Web:S1827"(Remove this deprecated "name" attribute.(ãº†¨ûÿÿÿÿ
+E	Web:S1827”"/Remove this deprecated "cellpadding" attribute.(…²ˆÛ
+E	Web:S1827”"/Remove this deprecated "cellspacing" attribute.(…²ˆÛ
+A	Web:S1827”"+Remove this deprecated "summary" attribute.(…²ˆÛ
+C	Web:S1827î"(Remove this deprecated "name" attribute.(ŸÙ‹ëÿÿÿÿÿ
+C	Web:S1827ş"(Remove this deprecated "name" attribute.(Ú‚­ÿÿÿÿÿ
+>	Web:S1827‚"(Remove this deprecated "name" attribute.(œë±ç
+>	Web:S1827"(Remove this deprecated "name" attribute.(ª–×‘
+C	Web:S1827™"(Remove this deprecated "name" attribute.(Š—˜«ûÿÿÿÿ
+>	Web:S1827¤"(Remove this deprecated "name" attribute.(©¬·
+C	Web:S1827¯"(Remove this deprecated "name" attribute.(ì†„Ûûÿÿÿÿ
+C	Web:S1827º"(Remove this deprecated "name" attribute.(ÿ´Éüÿÿÿÿ
+C	Web:S1827Å"(Remove this deprecated "name" attribute.(ª‰ÈŸÿÿÿÿÿ
+>	Web:S1827Ğ"(Remove this deprecated "name" attribute.(å€÷¢
+>	Web:S1827Û"(Remove this deprecated "name" attribute.(‚şõß
+C	Web:S1827ê"(Remove this deprecated "name" attribute.(ŸÖ‡çıÿÿÿÿ
+=	Web:S1827î"(Remove this deprecated "name" attribute.(ıİÂx
+IWeb:BoldAndItalicTagsCheck÷"Replace this <i> tag by <em>.(Æò—„úÿÿÿÿ
+>	Web:S1827ü"(Remove this deprecated "name" attribute.(Úí²Ñ
+C	Web:S1827ˆ"(Remove this deprecated "name" attribute.(¹ƒúÿÿÿÿ
+C	Web:S1827˜"(Remove this deprecated "name" attribute.(×¯Ÿøÿÿÿÿ
+>	Web:S1827œ"(Remove this deprecated "name" attribute.(ÅŞş‰
+C	Web:S1827¬"(Remove this deprecated "name" attribute.(¬ŒÇóùÿÿÿÿ
+>	Web:S1827¼"(Remove this deprecated "name" attribute.(í­Î£
+C	Web:S1827Î"(Remove this deprecated "name" attribute.(ó™òÿÿÿÿÿ
+>	Web:S1827Ü"(Remove this deprecated "name" attribute.(íñ…À
+>	Web:S1827ï"(Remove this deprecated "name" attribute.(Éµïù
+>	Web:S1827ş"(Remove this deprecated "name" attribute.(¥¼ç
+>	Web:S1827—"(Remove this deprecated "name" attribute.(å‰¦«
+>	Web:S1827«"(Remove this deprecated "name" attribute.(øÓÖÀ
+C	Web:S1827Â"(Remove this deprecated "name" attribute.(¤ş¯Òüÿÿÿÿ
+=	Web:S1827Ô"(Remove this deprecated "name" attribute.(Ïƒ¹A
+>	Web:S1827æ"(Remove this deprecated "name" attribute.(™Ì›ó
+C	Web:S1827è"(Remove this deprecated "name" attribute.(ºñÒ³ûÿÿÿÿ
+OWeb:AvoidCommentedOutCodeCheckƒ"Remove this commented out code.(òçÿŒÿÿÿÿÿ
+C	Web:S1827"(Remove this deprecated "name" attribute.(òı¹Äıÿÿÿÿ
+€javascript:S27034"dAdd the "let", "const" or "var" keyword to this declaration of "allClassesLink" to make it explicit.(æúÀÀ
+†javascript:S2703„"dAdd the "let", "const" or "var" keyword to this declaration of "allClassesLink" to make it explicit.(ÒüÇÚùÿÿÿÿ

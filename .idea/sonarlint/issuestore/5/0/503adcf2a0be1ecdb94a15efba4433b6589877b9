@@ -1,0 +1,9 @@
+
+gsquid:S1301h"KReplace this "switch" statement by "if" statements to increase readability.(ãÁğ™øÿÿÿÿ
+Esquid:S1604Î"(Make this anonymous inner class a lambda(¯Àÿÿÿÿÿ
+psquid:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(§ş¢¾
+Nsquid:S1135c"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ
+U"squid:SwitchLastCaseIsDefaultCheckh""Add a default case to this switch.(ãÁğ™øÿÿÿÿ
+_squid:S1126­"BReplace this if-then-else statement by a single method invocation.(‚å¿¥ûÿÿÿÿ
+Gsquid:S1905¿"*Remove this unnecessary cast to "Spanned".(«ÃÑŞşÿÿÿÿ
+Qsquid:S2864Â"4Iterate over the "entrySet" instead of the "keySet".(ÎšŸûÿÿÿÿ

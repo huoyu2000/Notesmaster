@@ -1,0 +1,8 @@
+
+—squid:S1192"MDefine a constant instead of duplicating this literal "Unknown URI " 4 times.(³²”‘üÿÿÿÿ8“Ò¡2J$cc2902da-653a-4783-9e3a-c8a5e9553611
+{squid:S1153ª"1Directly append the argument of String.valueOf().(œËß¦ıÿÿÿÿ8’“Ò¡2J$0367116b-349c-4e35-bb76-7dfa2294980a
+®squid:S3008K"eRename this field "NOTES_SNIPPET_SEARCH_QUERY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èòƒùÿÿÿÿ8–“Ò¡2J$0ac20f99-8d8e-4109-a43d-d23787d92c52
+nsquid:S1659"$Declare "noteId" on a separate line.(ŸàØ˜øÿÿÿÿ8é“Ò¡2J$2ed9618a-260b-45e9-8b05-0bb147e7d6a8
+rsquid:S1659"(Declare "insertedId" on a separate line.(ŸàØ˜øÿÿÿÿ8é“Ò¡2J$2412b438-a507-42cd-ab2d-942a2c61e7d1
+‚squid:S2130Ì"8Use "Long.parseLong" for this string-to-long conversion.(•ãÿ¬ÿÿÿÿÿ8í“Ò¡2J$02ab6a85-b45b-4620-b394-e98914c510a7
+|squid:S1135¹"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8ó“Ò¡2J$b69c3d83-f9a0-4319-8ea0-2416bcb02ec5

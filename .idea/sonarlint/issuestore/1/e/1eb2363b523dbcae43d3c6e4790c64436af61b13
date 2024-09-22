@@ -1,0 +1,13 @@
+
+•squid:S1192y"RDefine a constant instead of duplicating this literal " AFTER DELETE ON " 3 times.(“áâB8¯ÃşÑ¡2J$3840323f-282c-4aa9-9093-e5756eee1ee8
+§squid:S11920"^Define a constant instead of duplicating this literal " INTEGER NOT NULL DEFAULT 0," 11 times.(Øæ‡¦ûÿÿÿÿ8¯ÃşÑ¡2J$f9de3e02-ca42-48b3-b01b-39fd3383ddc0
+‘squid:S1192]"HDefine a constant instead of duplicating this literal "   SET " 8 times.(Õ÷Ë“üÿÿÿÿ8°ÃşÑ¡2J$a4c64810-85dd-498b-9868-ba0d69e52ba7
+squid:S1192^"IDefine a constant instead of duplicating this literal "  WHERE " 8 times.(Øë°8°ÃşÑ¡2J$6c06e1e0-8282-44c4-a8fc-8822345675f1
+‘squid:S1192["HDefine a constant instead of duplicating this literal " BEGIN " 4 times.(ÕêïŠşÿÿÿÿ8°ÃşÑ¡2J$3bdfef4d-8a62-4d77-be4a-c1aaaa12ed4f
+Šsquid:S1192^"FDefine a constant instead of duplicating this literal "=new." 6 times.(Øë°8°ÃşÑ¡2J$4cf45fba-7a43-47bc-9d1d-d71d0d8aa9a4
+squid:S1192\"JDefine a constant instead of duplicating this literal "  UPDATE " 8 times.(ìó¥Ä8°ÃşÑ¡2J$b84167e8-ca70-47c7-b46e-095d01561fae
+¤squid:S11927"[Define a constant instead of duplicating this literal " TEXT NOT NULL DEFAULT ''," 5 times.(ëÆ‰½üÿÿÿÿ8°ÃşÑ¡2J$2a22b04a-4b77-4d2f-8102-69cbdbed11f7
+Âsquid:S11923"yDefine a constant instead of duplicating this literal " INTEGER NOT NULL DEFAULT (strftime('%s','now') * 1000)," 4 times.(€Âàüÿÿÿÿ8°ÃşÑ¡2J$6ab2b284-6dbf-4ff4-940d-c92f1f2b9cae
+‘squid:S1192†"GDefine a constant instead of duplicating this literal " BEGIN" 6 times.(ÕêïŠşÿÿÿÿ8°ÃşÑ¡2J$b9d9576b-0603-4bf5-ad67-7272a6b1b0dd
+squid:S1192h"FDefine a constant instead of duplicating this literal "=old." 6 times.(”»ÎÔüÿÿÿÿ8°ÃşÑ¡2J$8ab939d4-25b8-42da-ac57-321d93e57fb8
+fsquid:S1214#""Move constants to a class or enum.(áÅÔö8ÇÃşÑ¡2J$f5429b0d-18a0-4393-a897-d86d8a5eae93

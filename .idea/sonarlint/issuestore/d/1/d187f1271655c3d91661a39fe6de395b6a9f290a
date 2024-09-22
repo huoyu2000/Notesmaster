@@ -1,0 +1,9 @@
+
+]squid:S2259¹"@A "NullPointerException" could be thrown; "js" is nullable here.(±ú”§ýÿÿÿÿ
+?squid:S1148c"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+@squid:S1148ƒ"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+@squid:S1148¬"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+@squid:S1148Ë"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+@squid:S1148õ"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+@squid:S1148´"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+jsquid:S3776…"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(´ÇŽª

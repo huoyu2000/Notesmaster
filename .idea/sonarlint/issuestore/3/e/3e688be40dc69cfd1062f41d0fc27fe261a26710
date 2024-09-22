@@ -1,0 +1,20 @@
+
+hsquid:S1301†"KReplace this "switch" statement by "if" statements to increase readability.(öÛ«°şÿÿÿÿ
+?squid:S1148I"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148m"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148p"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148s"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148v"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+jsquid:CallToDeprecatedMethod7"=Remove this use of "FLAG_SHOW_WHEN_LOCKED"; it is deprecated.(÷±µÁúÿÿÿÿ
+csquid:CallToDeprecatedMethod;";Remove this use of "FLAG_TURN_SCREEN_ON"; it is deprecated.(ƒìıè
+lsquid:CallToDeprecatedMethod="?Remove this use of "FLAG_LAYOUT_INSET_DECOR"; it is deprecated.(‹”‡Ñúÿÿÿÿ
+Zsquid:CallToDeprecatedMethodX"2Remove this use of "isScreenOn"; it is deprecated.(¤® ²
+asquid:CallToDeprecatedMethodb":Remove this use of "setAudioStreamType"; it is deprecated.(¡Ìé0
+gsquid:CallToDeprecatedMethodd":Remove this use of "setAudioStreamType"; it is deprecated.(†Å¨ªùÿÿÿÿ
+asquid:S2147n"ECombine this catch with the one at line 107, which has the same body.(ÿëÛßúÿÿÿÿ
+\squid:S2147q"ECombine this catch with the one at line 107, which has the same body.(‚ùïÄ
+\squid:S2147t"ECombine this catch with the one at line 107, which has the same body.(ï­£Ä
+Nsquid:S1135l"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135o"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135r"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135u"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ

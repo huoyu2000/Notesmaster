@@ -1,0 +1,10 @@
+
+?squid:S1604t"(Make this anonymous inner class a lambda(ÉãÃ®
+squid:S3008""eRename this field "GTASK_SYNC_NOTIFICATION_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëíÅÍúÿÿÿÿ
+^squid:CallToDeprecatedMethod "1Remove this use of "AsyncTask"; it is deprecated.(¯ÚÔËúÿÿÿÿ
+^squid:S3878="GDisambiguate this call by either casting as "Progress" or "Progress[]".(‘Àß
+_squid:CallToDeprecatedMethod="7Remove this use of "publishProgress"; it is deprecated.(‘Àß
+\squid:CallToDeprecatedMethodK"/Remove this use of "Builder"; it is deprecated.(Üƒ÷ıùÿÿÿÿ
+_squid:CallToDeprecatedMethodR"7Remove this use of "getNotification"; it is deprecated.(şôõì
+wsquid:CallToDeprecatedMethodf"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(÷á‰½ûÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Í›¸ıÿÿÿÿ

@@ -1,0 +1,11 @@
+
+squid:S1319Ì"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ëï·ºüÿÿÿÿ
+]squid:S2259Š"@A "NullPointerException" could be thrown; "js" is nullable here.(Âä¢Ñúÿÿÿÿ
+?squid:S1148F"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148c"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148~"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148œ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148µ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Õ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+usquid:S2293*"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡Ê©ëùÿÿÿÿ
+ssquid:S3923Ë"[Remove this conditional structure or edit its code blocks so that they're not all the same.(†ÈÔ¡

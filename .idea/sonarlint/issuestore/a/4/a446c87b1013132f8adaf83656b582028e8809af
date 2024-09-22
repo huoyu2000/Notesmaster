@@ -1,0 +1,14 @@
+
+fsquid:S2095«"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ŠÀø¯
+@squid:S1148®"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148±"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Ï"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Ñ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+nsquid:S00116w"VRename this field "TEXT_FORMAT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ›–¼
+jsquid:S3776¨"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(œÃÁí
+isquid:S3776İ"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ì´ê
+]squid:S2147°"ECombine this catch with the one at line 301, which has the same body.(ßÈ´
+]squid:S2147Ğ"ECombine this catch with the one at line 334, which has the same body.(ï­£Ä
+^
+squid:S899Ë"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ
+:squid:S3398H"#Move this method into "TextExport".(…´‹

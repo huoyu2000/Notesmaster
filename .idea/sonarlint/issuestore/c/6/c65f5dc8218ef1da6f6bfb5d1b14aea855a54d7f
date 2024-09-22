@@ -1,0 +1,18 @@
+
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(§Ú¦“
+Qsquid:S1118*":Add a private constructor to hide the implicit public one.(¦¬ÿ”
+jsquid:ModifiersOrderCheck+"EReorder the modifiers to comply with the Java Language Specification.(‰ßÆ“
+osquid:ModifiersOrderCheck3"EReorder the modifiers to comply with the Java Language Specification.(¼Şı·şÿÿÿÿ
+asquid:CallToDeprecatedMethodE"9Remove this use of "PreferenceManager"; it is deprecated.(º—‡ê
+ksquid:CallToDeprecatedMethodE"CRemove this use of "getDefaultSharedPreferences"; it is deprecated.(º—‡ê
+Esquid:S2140G")Use "java.util.Random.nextInt()" instead.(Åğêôşÿÿÿÿ
+Vsquid:S1118M":Add a private constructor to hide the implicit public one.(øÕÅªşÿÿÿÿ
+osquid:ModifiersOrderCheckN"EReorder the modifiers to comply with the Java Language Specification.(»ÔÌôüÿÿÿÿ
+osquid:ModifiersOrderCheckV"EReorder the modifiers to comply with the Java Language Specification.(ÓşûĞúÿÿÿÿ
+osquid:ModifiersOrderCheck^"EReorder the modifiers to comply with the Java Language Specification.(òÄó²ıÿÿÿÿ
+jsquid:ModifiersOrderCheckf"EReorder the modifiers to comply with the Java Language Specification.(¬Éœö
+Rsquid:S1118ƒ":Add a private constructor to hide the implicit public one.(ÜÖ¹Ø
+psquid:ModifiersOrderCheck„"EReorder the modifiers to comply with the Java Language Specification.(®íç±şÿÿÿÿ
+psquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ªª‡›úÿÿÿÿ
+Wsquid:S1118":Add a private constructor to hide the implicit public one.(Şëÿùÿÿÿÿ
+ksquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Şúí

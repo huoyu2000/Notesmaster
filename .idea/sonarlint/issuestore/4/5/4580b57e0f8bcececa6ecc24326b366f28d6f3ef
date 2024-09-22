@@ -1,0 +1,64 @@
+
+NWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(òçÿŒÿÿÿÿÿ
+B	Web:S1827"(Remove this deprecated "name" attribute.(þ™¨£úÿÿÿÿ
+B	Web:S1827"(Remove this deprecated "name" attribute.(ìó¢ßøÿÿÿÿ
+NWeb:AvoidCommentedOutCodeCheck3"Remove this commented out code.(òçÿŒÿÿÿÿÿ
+=	Web:S1827M"(Remove this deprecated "name" attribute.(Ä³ŽÞ
+=	Web:S1827‘"(Remove this deprecated "name" attribute.(—ùh
+E	Web:S1827•"/Remove this deprecated "cellpadding" attribute.(æÃöý
+E	Web:S1827•"/Remove this deprecated "cellspacing" attribute.(æÃöý
+A	Web:S1827•"+Remove this deprecated "summary" attribute.(æÃöý
+C	Web:S1827Ç"(Remove this deprecated "name" attribute.(ãº†¨ûÿÿÿÿ
+E	Web:S1827Ë"/Remove this deprecated "cellpadding" attribute.(…²ˆÛ
+E	Web:S1827Ë"/Remove this deprecated "cellspacing" attribute.(…²ˆÛ
+A	Web:S1827Ë"+Remove this deprecated "summary" attribute.(…²ˆÛ
+C	Web:S1827ÿ"(Remove this deprecated "name" attribute.(ŸÙ‹ëÿÿÿÿÿ
+C	Web:S1827"(Remove this deprecated "name" attribute.(ŸÖ‡çýÿÿÿÿ
+C	Web:S1827“"(Remove this deprecated "name" attribute.(¦†À•ùÿÿÿÿ
+>	Web:S1827œ"(Remove this deprecated "name" attribute.(äñÃµ
+>	Web:S1827¦"(Remove this deprecated "name" attribute.(Ó™ç
+>	Web:S1827¯"(Remove this deprecated "name" attribute.(Ï¶ï¤
+C	Web:S1827¹"(Remove this deprecated "name" attribute.(ô’îüÿÿÿÿ
+=	Web:S1827Ã"(Remove this deprecated "name" attribute.(¯·Üb
+C	Web:S1827Ì"(Remove this deprecated "name" attribute.(ªÅá¹ùÿÿÿÿ
+>	Web:S1827×"(Remove this deprecated "name" attribute.(ËØ
+>	Web:S1827å"(Remove this deprecated "name" attribute.(àëñÞ
+C	Web:S1827÷"(Remove this deprecated "name" attribute.(×¯Ÿøÿÿÿÿ
+>	Web:S1827û"(Remove this deprecated "name" attribute.(ÅÞþ‰
+C	Web:S1827Š"(Remove this deprecated "name" attribute.(••ÙÈüÿÿÿÿ
+>	Web:S1827™"(Remove this deprecated "name" attribute.(íñ…À
+>	Web:S1827·"(Remove this deprecated "name" attribute.(ÃÄÄ¿
+>	Web:S1827É"(Remove this deprecated "name" attribute.(‹˜ˆž
+C	Web:S1827ß"(Remove this deprecated "name" attribute.(–§á­ùÿÿÿÿ
+C	Web:S1827ö"(Remove this deprecated "name" attribute.(«™Êþÿÿÿÿ
+C	Web:S1827Œ"(Remove this deprecated "name" attribute.(ØŽ“Äùÿÿÿÿ
+C	Web:S1827¡"(Remove this deprecated "name" attribute.(¤þ¯Òüÿÿÿÿ
+>	Web:S1827²"(Remove this deprecated "name" attribute.(øÓÖÀ
+>	Web:S1827Ë"(Remove this deprecated "name" attribute.(å‰¦«
+C	Web:S1827à"(Remove this deprecated "name" attribute.(ð¦ÛÆúÿÿÿÿ
+>	Web:S1827é"(Remove this deprecated "name" attribute.(¡²Ì
+C	Web:S1827ò"(Remove this deprecated "name" attribute.(šô¡×øÿÿÿÿ
+C	Web:S1827ÿ"(Remove this deprecated "name" attribute.(•ûŽŸúÿÿÿÿ
+>	Web:S1827Œ"(Remove this deprecated "name" attribute.(÷ µ
+>	Web:S1827™"(Remove this deprecated "name" attribute.(¹«ù—
+C	Web:S1827¦"(Remove this deprecated "name" attribute.(è²”±úÿÿÿÿ
+>	Web:S1827³"(Remove this deprecated "name" attribute.(‡éþƒ
+C	Web:S1827Á"(Remove this deprecated "name" attribute.(©Ë‘ôüÿÿÿÿ
+=	Web:S1827Î"(Remove this deprecated "name" attribute.(Õ”Øy
+>	Web:S1827Û"(Remove this deprecated "name" attribute.(ÍÏ÷ë
+C	Web:S1827æ"(Remove this deprecated "name" attribute.(ë•¶¢ýÿÿÿÿ
+C	Web:S1827ï"(Remove this deprecated "name" attribute.(ÏÜ•Ùûÿÿÿÿ
+>	Web:S1827ø"(Remove this deprecated "name" attribute.(žæŸÁ
+>	Web:S1827"(Remove this deprecated "name" attribute.(ÓÞÒç
+C	Web:S1827Š"(Remove this deprecated "name" attribute.(ÌêÒÌüÿÿÿÿ
+>	Web:S1827“"(Remove this deprecated "name" attribute.(®êâå
+>	Web:S1827"(Remove this deprecated "name" attribute.(ÔÌ
+>	Web:S1827¦"(Remove this deprecated "name" attribute.(¾²ÍÇ
+C	Web:S1827°"(Remove this deprecated "name" attribute.(ªØ—Îýÿÿÿÿ
+>	Web:S1827¼"(Remove this deprecated "name" attribute.(ÅÞÜá
+>	Web:S1827Ô"(Remove this deprecated "name" attribute.(™Ì›ó
+C	Web:S1827Ö"(Remove this deprecated "name" attribute.(ºñÒ³ûÿÿÿÿ
+OWeb:AvoidCommentedOutCodeCheckñ"Remove this commented out code.(òçÿŒÿÿÿÿÿ
+C	Web:S1827‹"(Remove this deprecated "name" attribute.(òý¹Äýÿÿÿÿ
+€javascript:S27034"dAdd the "let", "const" or "var" keyword to this declaration of "allClassesLink" to make it explicit.(æúÀÀ
+†javascript:S2703ò"dAdd the "let", "const" or "var" keyword to this declaration of "allClassesLink" to make it explicit.(ÒüÇÚùÿÿÿÿ

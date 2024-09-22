@@ -1,0 +1,61 @@
+
+Jsquid:S1199á"-Extract this nested code block into a method.(µ˜ÇÃøÿÿÿÿ
+Jsquid:S1199…"-Extract this nested code block into a method.(ê¶ôĞùÿÿÿÿ
+Jsquid:S1199"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+Esquid:S1199"-Extract this nested code block into a method.(ŒãÈ“
+Jsquid:S1199”"-Extract this nested code block into a method.(Ú¿–€úÿÿÿÿ
+Jsquid:S1199˜"-Extract this nested code block into a method.(ãÍ€ôÿÿÿÿÿ
+Esquid:S1199¤"-Extract this nested code block into a method.(ÿõó
+Jsquid:S1199¨"-Extract this nested code block into a method.(Á¬å¯ûÿÿÿÿ
+hsquid:S1301±"KReplace this "switch" statement by "if" statements to increase readability.(×“¾ñùÿÿÿÿ
+?squid:S1604…"(Make this anonymous inner class a lambda(—ÌºV
+@squid:S1604Ê"(Make this anonymous inner class a lambda(Î¬¯”
+@squid:S1604À"(Make this anonymous inner class a lambda(¿Ü´ã
+Esquid:S1604Ù"(Make this anonymous inner class a lambda(ˆĞïøÿÿÿÿ
+@squid:S1604á"(Make this anonymous inner class a lambda(øÄì‡
+@squid:S1604Æ"(Make this anonymous inner class a lambda(Û±¼ 
+@squid:S1604é"(Make this anonymous inner class a lambda(Î¬¯”
+@squid:S1148´"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148¼"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Ksquid:EmptyStatementUsageCheck`"Remove this empty statement.(ôŸìúÿÿÿÿ
+psquid:ModifiersOrderCheck‡"EReorder the modifiers to comply with the Java Language Specification.(¹úæµûÿÿÿÿ
+jsquid:ModifiersOrderCheckˆ"EReorder the modifiers to comply with the Java Language Specification.(ìÑ¾k
+3squid:S3626±"Remove this redundant jump.(ûÁİ…
+3squid:S3626µ"Remove this redundant jump.(ûÁİ…
+3squid:S3626É"Remove this redundant jump.(ûÁİ…
+osquid:S3776 "RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(áé–Şÿÿÿÿÿ
+bsquid:CallToDeprecatedMethod¡"9Remove this use of "PreferenceManager"; it is deprecated.(Â­©Ğ
+lsquid:CallToDeprecatedMethod¡"CRemove this use of "getDefaultSharedPreferences"; it is deprecated.(Â­©Ğ
+Osquid:S1135»"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Gsquid:S2093¥"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+psquid:S1450í"XRemove the "mMoveMenu" field and declare it as a local variable in the relevant methods.(¢—ò
+Osquid:S1135¢"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Osquid:S1135§"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+gsquid:CallToDeprecatedMethodâ"9Remove this use of "getDefaultDisplay"; it is deprecated.(Ä¸¬Ìıÿÿÿÿ
+_squid:CallToDeprecatedMethodã"1Remove this use of "getHeight"; it is deprecated.(·¡ªÃıÿÿÿÿ
+Lsquid:EmptyStatementUsageCheck™"Remove this empty statement.(ôŸìúÿÿÿÿ
+jsquid:S3776Ø"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ãìîí
+Xsquid:CallToDeprecatedMethodÙ"1Remove this use of "AsyncTask"; it is deprecated.(ıî?
+{squid:S2177Ú"^Rename this method or correct the type of the argument(s) to override the parent class method.(şÔ‚¯ùÿÿÿÿ
+Jsquid:S1172Ú"-Remove this unused method parameter "unused".(şÔ‚¯ùÿÿÿÿ
+Bsquid:S00108ß")Either remove or fill this block of code.(ûÊ¥
+ssquid:CallToDeprecatedMethodï"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(§Í¿Â
+]squid:CallToDeprecatedMethodú"/Remove this use of "execute"; it is deprecated.( å«ûÿÿÿÿ
+qsquid:S2293ƒ"YReplace the type specification in this constructor call with the diamond operator ("<>").(è‰¥ğ
+esquid:CallToDeprecatedMethod½"7Remove this use of "toggleSoftInput"; it is deprecated.(© …áúÿÿÿÿ
+asquid:CallToDeprecatedMethod½"3Remove this use of "SHOW_FORCED"; it is deprecated.(© …áúÿÿÿÿ
+isquid:S3776Æ"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÅôÉ#
+Asquid:S1905à")Remove this unnecessary cast to "Button".(ì¨‹ƒ
+Osquid:S1135ˆ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+_squid:S1126"BReplace this if-then-else statement by a single method invocation.(ç’¦ıÿÿÿÿ
+Osquid:S1135•"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+xsquid:CallToDeprecatedMethodœ"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(œƒƒ©ùÿÿÿÿ
+csquid:CallToDeprecatedMethod¬"5Remove this use of "onBackPressed"; it is deprecated.(‘Ñàÿÿÿÿÿ
+_squid:CallToDeprecatedMethod½"1Remove this use of "AsyncTask"; it is deprecated.(Ğ§ğÛıÿÿÿÿ
+xsquid:CallToDeprecatedMethodÅ"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(÷á‰½ûÿÿÿÿ
+]squid:CallToDeprecatedMethodâ"/Remove this use of "execute"; it is deprecated.( å«ûÿÿÿÿ
+isquid:S3776ñ"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ôŒùb
+Bsquid:S3398˜"%Move this method into "ModeCallback".(“ğÉçıÿÿÿÿ
+=squid:S3398Ø"%Move this method into "ModeCallback".(ãìîí
+Lsquid:S3398¼"/Move this method into "BackgroundQueryHandler".(—÷õüÿÿÿÿ
+Hsquid:S3398˜"0Move this method into "OnListItemClickListener".(‘ğğ¡

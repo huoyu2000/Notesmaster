@@ -22,16 +22,22 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
-    packaging {
-        resources.excludes.add("META-INF/DEPENDENCIES");
-        resources.excludes.add("META-INF/NOTICE");
-        resources.excludes.add("META-INF/LICENSE");
-        resources.excludes.add("META-INF/LICENSE.txt");
-        resources.excludes.add("META-INF/NOTICE.txt");
+
+    packagingOptions {
+        resources {
+            excludes += setOf(
+                    "META-INF/DEPENDENCIES",
+                    "META-INF/NOTICE",
+                    "META-INF/LICENSE",
+                    "META-INF/LICENSE.txt",
+                    "META-INF/NOTICE.txt"
+            )
+        }
     }
 }
 
