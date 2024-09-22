@@ -37,40 +37,65 @@ import net.micode.notes.R;
 import java.util.HashMap;
 import java.util.Map;
 
-public class NoteEditText extends EditText {
+public class NoteEditText extends androidx.appcompat.widget.AppCompatEditText {
     private static final String TAG = "NoteEditText";
-    private int mIndex;
-    private int mSelectionStartBeforeDelete;
+    // 日志标签，用于日志记录。
 
-    private static final String SCHEME_TEL = "tel:" ;
-    private static final String SCHEME_HTTP = "http:" ;
-    private static final String SCHEME_EMAIL = "mailto:" ;
+    private int mIndex;
+    // 当前编辑文本的索引。
+
+    private int mSelectionStartBeforeDelete;
+    // 删除操作前的选择起始位置。
+
+    private static final String SCHEME_TEL = "tel:";
+    // 电话链接的 URI 方案。
+
+    private static final String SCHEME_HTTP = "http:";
+    // HTTP 链接的 URI 方案。
+
+    private static final String SCHEME_EMAIL = "mailto:";
+    // 邮件链接的 URI 方案。
 
     private static final Map<String, Integer> sSchemaActionResMap = new HashMap<String, Integer>();
+    // 存储不同 URI 方案对应的资源 ID 的映射表。
+
     static {
         sSchemaActionResMap.put(SCHEME_TEL, R.string.note_link_tel);
+        // 将电话链接方案映射到对应的资源 ID。
+
         sSchemaActionResMap.put(SCHEME_HTTP, R.string.note_link_web);
+        // 将 HTTP 链接方案映射到对应的资源 ID。
+
         sSchemaActionResMap.put(SCHEME_EMAIL, R.string.note_link_email);
+        // 将邮件链接方案映射到对应的资源 ID。
     }
 
+
     /**
-     * Call by the {@link NoteEditActivity} to delete or add edit text
+     * 由 {@link NoteEditActivity} 调用，用于删除或添加编辑文本。
      */
     public interface OnTextViewChangeListener {
         /**
-         * Delete current edit text when {@link KeyEvent#KEYCODE_DEL} happens
-         * and the text is null
+         * 当 {@link KeyEvent#KEYCODE_DEL} 发生且文本为空时，删除当前编辑文本。
+         *
+         * @param index 当前编辑文本的索引
+         * @param text 当前编辑文本的内容
          */
         void onEditTextDelete(int index, String text);
 
         /**
-         * Add edit text after current edit text when {@link KeyEvent#KEYCODE_ENTER}
-         * happen
+         * 当 {@link KeyEvent#KEYCODE_ENTER} 发生时，在当前编辑文本后添加新的编辑文本。
+         *
+         * @param index 当前编辑文本的索引
+         * @param text 当前编辑文本的内容
          */
         void onEditTextEnter(int index, String text);
 
         /**
-         * Hide or show item option when text change
+         * 当文本发生变化时，隐藏或显示项目选项。
+         *
+         * @param index 当前编辑文本的索引
+         * @param hasText 文本是否为空
          */
         void onTextChange(int index, boolean hasText);
     }
@@ -80,103 +105,160 @@ public class NoteEditText extends EditText {
     public NoteEditText(Context context) {
         super(context, null);
         mIndex = 0;
+        // 初始化索引为 0
     }
 
     public void setIndex(int index) {
         mIndex = index;
+        // 设置当前编辑文本的索引
     }
 
     public void setOnTextViewChangeListener(OnTextViewChangeListener listener) {
         mOnTextViewChangeListener = listener;
+        // 设置文本视图变化监听器
     }
 
     public NoteEditText(Context context, AttributeSet attrs) {
         super(context, attrs, android.R.attr.editTextStyle);
+        // 使用 AttributeSet 初始化 NoteEditText
     }
 
     public NoteEditText(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        // TODO Auto-generated constructor stub
+        // 使用 AttributeSet 和默认样式初始化 NoteEditText
+        // TODO: 完成构造函数的具体实现
     }
-
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
+                // 处理触摸事件的按下动作
 
                 int x = (int) event.getX();
                 int y = (int) event.getY();
+                // 获取触摸点的坐标
+
                 x -= getTotalPaddingLeft();
                 y -= getTotalPaddingTop();
+                // 去除控件的内边距
+
                 x += getScrollX();
                 y += getScrollY();
+                // 考虑滚动偏移量
 
                 Layout layout = getLayout();
+                // 获取布局对象
+
                 int line = layout.getLineForVertical(y);
+                // 获取触摸点所在的行号
+
                 int off = layout.getOffsetForHorizontal(line, x);
+                // 获取触摸点在当前行的偏移量
+
                 Selection.setSelection(getText(), off);
+                // 设置光标位置
+
                 break;
         }
 
         return super.onTouchEvent(event);
+        // 交给父类处理其他触摸事件
     }
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         switch (keyCode) {
             case KeyEvent.KEYCODE_ENTER:
+                // 处理回车键事件
+
                 if (mOnTextViewChangeListener != null) {
+                    // 如果有监听器，则不拦截事件
                     return false;
                 }
                 break;
+
             case KeyEvent.KEYCODE_DEL:
+                // 处理删除键事件
+
                 mSelectionStartBeforeDelete = getSelectionStart();
+                // 记录删除前的选择起始位置
                 break;
+
             default:
+                // 其他按键事件
                 break;
         }
-        return super.onKeyDown(keyCode, event);
-    }
 
+        return super.onKeyDown(keyCode, event);
+        // 交给父类处理其他按键事件
+    }
     @Override
     public boolean onKeyUp(int keyCode, KeyEvent event) {
-        switch(keyCode) {
+        switch (keyCode) {
             case KeyEvent.KEYCODE_DEL:
+                // 处理删除键事件
+
                 if (mOnTextViewChangeListener != null) {
+                    // 检查是否有监听器
                     if (0 == mSelectionStartBeforeDelete && mIndex != 0) {
+                        // 如果选择起始位置为 0 并且索引不为 0
                         mOnTextViewChangeListener.onEditTextDelete(mIndex, getText().toString());
+                        // 调用监听器的删除方法
                         return true;
                     }
                 } else {
-                    Log.d(TAG, "OnTextViewChangeListener was not seted");
+                    Log.d(TAG, "OnTextViewChangeListener was not set");
+                    // 如果没有设置监听器，记录日志
                 }
                 break;
+
             case KeyEvent.KEYCODE_ENTER:
+                // 处理回车键事件
+
                 if (mOnTextViewChangeListener != null) {
+                    // 检查是否有监听器
                     int selectionStart = getSelectionStart();
+                    // 获取当前选择的起始位置
+
                     String text = getText().subSequence(selectionStart, length()).toString();
+                    // 获取选择后的文本
+
                     setText(getText().subSequence(0, selectionStart));
+                    // 设置当前文本为选择前的部分
+
                     mOnTextViewChangeListener.onEditTextEnter(mIndex + 1, text);
+                    // 调用监听器的回车方法
                 } else {
-                    Log.d(TAG, "OnTextViewChangeListener was not seted");
+                    Log.d(TAG, "OnTextViewChangeListener was not set");
+                    // 如果没有设置监听器，记录日志
                 }
                 break;
+
             default:
+                // 其他按键事件
                 break;
         }
+
         return super.onKeyUp(keyCode, event);
+        // 交给父类处理其他按键事件
     }
 
     @Override
     protected void onFocusChanged(boolean focused, int direction, Rect previouslyFocusedRect) {
         if (mOnTextViewChangeListener != null) {
+            // 检查是否有监听器
             if (!focused && TextUtils.isEmpty(getText())) {
+                // 如果失去焦点并且文本为空
                 mOnTextViewChangeListener.onTextChange(mIndex, false);
+                // 调用监听器的文本变化方法，传入 false 表示文本为空
             } else {
                 mOnTextViewChangeListener.onTextChange(mIndex, true);
+                // 调用监听器的文本变化方法，传入 true 表示文本不为空
             }
         }
+
         super.onFocusChanged(focused, direction, previouslyFocusedRect);
+        // 交给父类处理焦点变化事件
     }
 
     @Override
