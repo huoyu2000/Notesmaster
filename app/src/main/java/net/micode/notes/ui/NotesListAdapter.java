@@ -38,11 +38,13 @@ public class NotesListAdapter extends CursorAdapter {
     private int mNotesCount;
     private boolean mChoiceMode;
 
+    // 内部类，用于存储小部件属性
     public static class AppWidgetAttribute {
         public int widgetId;
         public int widgetType;
-    };
+    }
 
+    // 构造函数
     public NotesListAdapter(Context context) {
         super(context, null);
         mSelectedIndex = new HashMap<Integer, Boolean>();
@@ -50,11 +52,13 @@ public class NotesListAdapter extends CursorAdapter {
         mNotesCount = 0;
     }
 
+    // 创建新视图
     @Override
     public View newView(Context context, Cursor cursor, ViewGroup parent) {
         return new NotesListItem(context);
     }
 
+    // 绑定视图
     @Override
     public void bindView(View view, Context context, Cursor cursor) {
         if (view instanceof NotesListItem) {
@@ -64,20 +68,24 @@ public class NotesListAdapter extends CursorAdapter {
         }
     }
 
+    // 设置指定位置的项目为选中状态
     public void setCheckedItem(final int position, final boolean checked) {
         mSelectedIndex.put(position, checked);
         notifyDataSetChanged();
     }
 
+    // 判断是否处于选择模式
     public boolean isInChoiceMode() {
         return mChoiceMode;
     }
 
+    // 设置选择模式
     public void setChoiceMode(boolean mode) {
         mSelectedIndex.clear();
         mChoiceMode = mode;
     }
 
+    // 全选或取消全选
     public void selectAll(boolean checked) {
         Cursor cursor = getCursor();
         for (int i = 0; i < getCount(); i++) {
@@ -89,6 +97,7 @@ public class NotesListAdapter extends CursorAdapter {
         }
     }
 
+    // 获取所有选中项目的 ID
     public HashSet<Long> getSelectedItemIds() {
         HashSet<Long> itemSet = new HashSet<Long>();
         for (Integer position : mSelectedIndex.keySet()) {
@@ -101,10 +110,10 @@ public class NotesListAdapter extends CursorAdapter {
                 }
             }
         }
-
         return itemSet;
     }
 
+    // 获取所有选中小部件
     public HashSet<AppWidgetAttribute> getSelectedWidget() {
         HashSet<AppWidgetAttribute> itemSet = new HashSet<AppWidgetAttribute>();
         for (Integer position : mSelectedIndex.keySet()) {
@@ -117,7 +126,7 @@ public class NotesListAdapter extends CursorAdapter {
                     widget.widgetType = item.getWidgetType();
                     itemSet.add(widget);
                     /**
-                     * Don't close cursor here, only the adapter could close it
+                     * 不要在这里关闭游标，只有适配器可以关闭它
                      */
                 } else {
                     Log.e(TAG, "Invalid cursor");
@@ -128,45 +137,48 @@ public class NotesListAdapter extends CursorAdapter {
         return itemSet;
     }
 
+    // 获取选中项目的数量
     public int getSelectedCount() {
         Collection<Boolean> values = mSelectedIndex.values();
-        if (null == values) {
+        if (values == null) {
             return 0;
         }
-        Iterator<Boolean> iter = values.iterator();
         int count = 0;
-        while (iter.hasNext()) {
-            if (true == iter.next()) {
+        for (Boolean value : values) {
+            if (value) {
                 count++;
             }
         }
         return count;
     }
 
+    // 判断是否全部选中
     public boolean isAllSelected() {
         int checkedCount = getSelectedCount();
         return (checkedCount != 0 && checkedCount == mNotesCount);
     }
 
+    // 判断指定位置的项目是否被选中
     public boolean isSelectedItem(final int position) {
-        if (null == mSelectedIndex.get(position)) {
-            return false;
-        }
-        return mSelectedIndex.get(position);
+        Boolean selected = mSelectedIndex.get(position);
+        return selected != null && selected;
     }
 
+    // 当内容发生变化时调用
     @Override
     protected void onContentChanged() {
         super.onContentChanged();
         calcNotesCount();
     }
 
+    // 更改游标
     @Override
     public void changeCursor(Cursor cursor) {
         super.changeCursor(cursor);
         calcNotesCount();
     }
 
+    // 计算笔记数量
     private void calcNotesCount() {
         mNotesCount = 0;
         for (int i = 0; i < getCount(); i++) {

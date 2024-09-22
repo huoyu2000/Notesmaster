@@ -21,10 +21,17 @@ import android.content.Context;
 import android.content.Intent;
 
 public class AlarmReceiver extends BroadcastReceiver {
+    /*
+      当接收到广播时执行的方法。
+     */
     @Override
     public void onReceive(Context context, Intent intent) {
+        // 设置 Intent 的目标 Activity 为 AlarmAlertActivity
         intent.setClass(context, AlarmAlertActivity.class);
+        // 添加标志，确保此 Intent 启动一个新的任务
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        // 启动 AlarmAlertActivity
         context.startActivity(intent);
     }
 }
+

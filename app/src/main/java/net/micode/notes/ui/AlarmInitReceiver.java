@@ -26,40 +26,69 @@ import android.database.Cursor;
 
 import net.micode.notes.data.Notes;
 import net.micode.notes.data.Notes.NoteColumns;
-
-
+/*
+  广播接收器，用于初始化笔记提醒。
+ */
 public class AlarmInitReceiver extends BroadcastReceiver {
 
-    private static final String [] PROJECTION = new String [] {
-        NoteColumns.ID,
-        NoteColumns.ALERTED_DATE
+    // 查询列名数组
+    private static final String[] PROJECTION = new String[] {
+            NoteColumns.ID,
+            NoteColumns.ALERTED_DATE
     };
 
-    private static final int COLUMN_ID                = 0;
-    private static final int COLUMN_ALERTED_DATE      = 1;
+    // 列索引常量
+    private static final int COLUMN_ID = 0;
+    private static final int COLUMN_ALERTED_DATE = 1;
 
+    /*
+     当接收到广播时执行的方法。
+     */
     @Override
     public void onReceive(Context context, Intent intent) {
+        // 获取当前时间戳
         long currentDate = System.currentTimeMillis();
-        Cursor c = context.getContentResolver().query(Notes.CONTENT_NOTE_URI,
+
+        // 查询所有未提醒且类型为笔记的数据
+        Cursor cursor = context.getContentResolver().query(
+                Notes.CONTENT_NOTE_URI,
                 PROJECTION,
                 NoteColumns.ALERTED_DATE + ">? AND " + NoteColumns.TYPE + "=" + Notes.TYPE_NOTE,
-                new String[] { String.valueOf(currentDate) },
-                null);
+                new String[]{String.valueOf(currentDate)},
+                null
+        );
 
-        if (c != null) {
-            if (c.moveToFirst()) {
+        if (cursor != null) {
+            if (cursor.moveToFirst()) {
                 do {
-                    long alertDate = c.getLong(COLUMN_ALERTED_DATE);
+                    // 获取每条记录的提醒日期和 ID
+                    long alertDate = cursor.getLong(COLUMN_ALERTED_DATE);
+                    long noteId = cursor.getLong(COLUMN_ID);
+
+                    // 创建 Intent 用于发送广播
                     Intent sender = new Intent(context, AlarmReceiver.class);
-                    sender.setData(ContentUris.withAppendedId(Notes.CONTENT_NOTE_URI, c.getLong(COLUMN_ID)));
-                    PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0, sender, 0);
-                    AlarmManager alermManager = (AlarmManager) context
-                            .getSystemService(Context.ALARM_SERVICE);
-                    alermManager.set(AlarmManager.RTC_WAKEUP, alertDate, pendingIntent);
-                } while (c.moveToNext());
+                    sender.setData(ContentUris.withAppendedId(Notes.CONTENT_NOTE_URI, noteId));
+
+                    // 创建 PendingIntent 用于发送广播
+                    PendingIntent pendingIntent = PendingIntent.getBroadcast(
+                            context,
+                            0,
+                            sender,
+                            PendingIntent.FLAG_UPDATE_CURRENT
+                    );
+
+                    // 获取 AlarmManager 对象
+                    AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+
+                    // 设置定时提醒
+                    alarmManager.set(
+                            AlarmManager.RTC_WAKEUP,
+                            alertDate,
+                            pendingIntent
+                    );
+                } while (cursor.moveToNext());
             }
-            c.close();
+            cursor.close(); // 关闭 Cursor
         }
     }
 }
